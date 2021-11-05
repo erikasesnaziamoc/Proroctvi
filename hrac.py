@@ -11,10 +11,19 @@ class Hrac:
             startsila = 5
             startmagy = 2
             self.pohlavi = "f"
-        else:
+        if profese == "Zoldak":
+            startsila = 5
+            startmagy = 2
+            self.pohlavi = "m"
+        if profese == "Druid":
+            startsila = 3
+            startmagy = 6
+            self.pohlavi = "m"
+        if profese == "Zaklinacka":
             startsila = 4
             startmagy = 4
-            self.pohlavi = "m"
+            self.pohlavi = "f"
+ 
         self.ubranezivoty = 0
         self.vycerpanemagy = 0
         self.zkusenost = 3
